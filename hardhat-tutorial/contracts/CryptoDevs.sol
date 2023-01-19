@@ -56,7 +56,7 @@ contract CryptoDevs is ERC721Enumerable, Ownable {
         presaleStarted = true;
         // Set presaleEnded time as current timestamp + 5 minutes
         // Solidity has cool syntax for timestamps (seconds, minutes, hours, days, years)
-        presaleEnded = block.timestamp + 5 minutes;
+        presaleEnded = block.timestamp + 665 minutes;
     }
 
     /**
